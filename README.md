@@ -1,3 +1,2 @@
-# What? 
-* 这是我的 JavaScript 小册
+# 我的 JavaScript 学习小册
 * 逐渐连载中

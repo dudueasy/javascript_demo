@@ -1,4 +1,4 @@
-const {curry} = require("ramda");
+import {curry} from "ramda";
 
 // 写一个基础的 curry
 // const curry = f => x => y => f(x, y);
@@ -64,7 +64,7 @@ const upperCaseName = getUpperCaseName((user) => (user.name))
 console.log(`upperCaseName : `, upperCaseName);
 
 
-const curryReplace = curry((regex, replacement, str)=> str.replace(regex, replacement));
+const curryReplace = curry((regex, replacement, str) => str.replace(regex, replacement));
 const replaceVowels = curryReplace(/[AEIOU]/gi, '!');
 const replaceResult = replaceVowels('this is a new world')
-console.log(`replaceResult : `, replaceResult );
+console.log(`replaceResult : `, replaceResult);

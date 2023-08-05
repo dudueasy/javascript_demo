@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "apolodu <dudueasy@126.com>",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "mocha": "^10.2.0",
     "ramda": "^0.29.0"

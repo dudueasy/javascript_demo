@@ -1,5 +1,5 @@
-const R = require('ramda');
-const assert = require('assert');
+import * as R from 'ramda';
+import assert from 'assert';
 
 const _ = R
 const split = _.curry((delimiter, string) => string.split(delimiter))
